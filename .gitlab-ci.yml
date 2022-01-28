@@ -17,6 +17,8 @@ build:
 
 tests:
   stage: test
+  dependencies:
+    - build
   script:
     - cd tests
     - make
