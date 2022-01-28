@@ -3,7 +3,8 @@ NAME=libft
 SRC_PATH = ./src/
 
 SRC_NAME = ft_isalpha.c\
-	ft_isdigit.c
+	ft_isdigit.c\
+	ft_isalnum.c
 
 OBJ_PATH=./obj/
 INC_PATH=./
@@ -18,7 +19,7 @@ LIB_PATH = ./
 LIB = $(addprefix $(LIB_PATH),$(LIB_NAME))
 
 CC = gcc
-CFLAGS = -Werror -Wall -Wextra -Ofast -Os
+CFLAGS = -Wall -Wextra -Ofast -Os
 
 SRC = $(addprefix $(SRC_PATH),$(SRC_NAME))
 OBJ = $(addprefix $(OBJ_PATH),$(OBJ_NAME))

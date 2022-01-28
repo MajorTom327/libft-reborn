@@ -4,7 +4,7 @@
 
 - [x] isalpha
 - [x] isdigit
-- [ ] isalnum
+- [x] isalnum
 - [ ] isascii
 - [ ] isprint
 - [ ] strlen

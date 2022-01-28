@@ -6,7 +6,8 @@ SRC_NAME = main.c \
 			check_suite.c \
 			check_cond.c \
 			ts_isalpha.c \
-			ts_isdigit.c
+			ts_isdigit.c \
+			ts_isalnum.c
 
 OBJ_PATH=./obj/
 INC_PATH=./\
