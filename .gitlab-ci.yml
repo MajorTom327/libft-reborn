@@ -1,0 +1,23 @@
+image: silkeh/clang
+
+stages:
+  - test
+  - build
+
+before_script:
+  - apt-get update -y
+
+build:
+  stage: build
+  script:
+    - make
+  artifacts:
+    paths:
+      - fresh
+
+tests:
+  stage: test
+  script:
+    - cd tests
+    - make
+    - ./test
