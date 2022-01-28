@@ -4,17 +4,19 @@ stages:
   - test
   - build
 
-before_script:
-  - apt-get update -y
-
-build-job:
+build:
   stage: build
   script:
     - make
+  artifacts:
+    paths:
+      - ./liibft.h
+      - ./libft.a
 
-test-job:
+test:
   stage: test
   script:
+    - make
     - cd tests
     - make
     - ./test
