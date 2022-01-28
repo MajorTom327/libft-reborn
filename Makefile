@@ -2,7 +2,8 @@ NAME=libft
 
 SRC_PATH = ./src/
 
-SRC_NAME = ft_isalpha.c
+SRC_NAME = ft_isalpha.c\
+	ft_isdigit.c
 
 OBJ_PATH=./obj/
 INC_PATH=./
@@ -45,5 +46,11 @@ fclean: clean
 	rm -f $(LIB)
 
 re: fclean all
+
+test: re
+	@echo "Testing libft"
+	@make -C tests
+	@echo ""
+	@./tests/test
 
 .PHONY: all clean fclean re

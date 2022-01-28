@@ -2,7 +2,8 @@
 
 int main(void)
 {
-  testsuite_isalpha();
+  ts_isalpha();
+  ts_isdigit();
 
   exit_tests();
 }

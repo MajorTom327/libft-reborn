@@ -6,6 +6,7 @@ void suite_end(char *str);
 void check_cond(int cond, char *msg);
 void exit_tests();
 
-void testsuite_isalpha();
+void ts_isalpha();
+void ts_isdigit();
 
 #endif

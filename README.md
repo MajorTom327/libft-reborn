@@ -2,8 +2,8 @@
 
 ## Base
 
-- [ ] isalpha
-- [ ] isdigit
+- [x] isalpha
+- [x] isdigit
 - [ ] isalnum
 - [ ] isascii
 - [ ] isprint
