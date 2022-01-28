@@ -35,7 +35,7 @@ $(NAME): $(OBJ)
 
 $(OBJ_PATH)%.o: $(SRC_PATH)%.c
 	mkdir -p $(OBJ_PATH)
-	$(CC) $(CFLAGS) -c $(INC) $(LIB) -o $@ $<
+	$(CC) $(CFLAGS) -c $(INC) -o $@ $<
 
 clean:
 	rm -f $(OBJ)
