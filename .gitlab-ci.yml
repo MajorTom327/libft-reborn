@@ -7,7 +7,7 @@ stages:
 before_script:
   - apt-get update -y
 
-build:
+build_job:
   stage: build
   script:
     - make
@@ -15,10 +15,10 @@ build:
     paths:
       - fresh
 
-tests:
+test_job:
   stage: test
   dependencies:
-    - build
+    - build_job
   script:
     - cd tests
     - make
