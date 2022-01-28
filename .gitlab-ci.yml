@@ -1,4 +1,4 @@
-image: silkeh/clang
+image: gcc
 
 stages:
   - test
@@ -7,18 +7,13 @@ stages:
 before_script:
   - apt-get update -y
 
-build_job:
+build-job:
   stage: build
   script:
     - make
-  artifacts:
-    paths:
-      - fresh
 
-test_job:
+test-job:
   stage: test
-  dependencies:
-    - build_job
   script:
     - cd tests
     - make
