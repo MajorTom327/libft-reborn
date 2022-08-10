@@ -1,0 +1,23 @@
+name: build
+on:
+  push:
+    branches:
+      - main
+      - dev
+    pull_request: {}
+
+jobs:
+  build:
+    name: Build
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+
+      - name: make test
+        run: make test
+
+      - name: make
+        run: make
