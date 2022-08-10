@@ -1,5 +1,9 @@
 # libft
 
+[![Build Linux](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-ubuntu.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-ubuntu.yml)
+[![Build Mac](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-mac.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-mac.yml)
+[![Build Windows](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-windows.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-windows.yml)
+
 ## Base
 
 - [x] isalpha

@@ -1,4 +1,5 @@
 NAME=libft
+CC = clang
 
 SRC_PATH = ./src/
 
@@ -18,7 +19,6 @@ LIB_NAME = libft.a
 LIB_PATH = ./
 LIB = $(addprefix $(LIB_PATH),$(LIB_NAME))
 
-CC = gcc
 CFLAGS = -Wall -Wextra -Ofast -Os
 
 SRC = $(addprefix $(SRC_PATH),$(SRC_NAME))

@@ -1,4 +1,5 @@
 NAME=test
+CC = clang
 
 SRC_PATH=./src/
 
@@ -16,7 +17,6 @@ INC_PATH=./\
 INC_NAME=test.h
 INC = $(addprefix -I, $(INC_PATH))
 
-CC = gcc
 CFLAGS = -Wall -Wextra -Ofast -Os
 
 OBJ_NAME = $(SRC_NAME:.c=.o)
