@@ -3,10 +3,12 @@ CC = clang
 
 SRC_PATH = ./src/
 
-SRC_NAME = ft_isalpha.c\
-	ft_isdigit.c\
+SRC_NAME = \
 	ft_isalnum.c\
-	ft_isascii.c
+	ft_isalpha.c\
+	ft_isascii.c\
+	ft_isdigit.c\
+	ft_isprint.c
 
 OBJ_PATH=./obj/
 INC_PATH=./

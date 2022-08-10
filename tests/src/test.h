@@ -7,5 +7,6 @@ t_uni_suite *suite_isalpha();
 t_uni_suite *suite_isalnum();
 t_uni_suite *suite_isalnum();
 t_uni_suite *suite_isascii();
+t_uni_suite *suite_isprint();
 
 #endif
