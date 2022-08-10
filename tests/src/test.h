@@ -10,5 +10,6 @@ t_uni_suite *suite_isascii();
 t_uni_suite *suite_isprint();
 t_uni_suite *suite_strlen();
 t_uni_suite *suite_toupper();
+t_uni_suite *suite_tolower();
 
 #endif

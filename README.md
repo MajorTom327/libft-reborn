@@ -18,8 +18,8 @@
 - [ ] memmove
 - [ ] strlcpy
 - [ ] strlcat
-- [ ] toupper
-- [ ] tolower
+- [x] toupper
+- [x] tolower
 - [ ] strchr
 - [ ] strrchr
 - [ ] strncmp

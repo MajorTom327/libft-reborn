@@ -10,6 +10,7 @@ SRC_NAME = \
 	ft_isdigit.c\
 	ft_isprint.c\
 	ft_strlen.c\
+	ft_tolower.c\
 	ft_toupper.c
 
 OBJ_PATH=./obj/
