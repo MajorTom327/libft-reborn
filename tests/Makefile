@@ -8,7 +8,8 @@ SRC_NAME = main.c \
 			string/suite_isalpha.c\
 			string/suite_isascii.c\
 			string/suite_isdigit.c\
-			string/suite_isprint.c
+			string/suite_isprint.c\
+			string/suite_strlen.c
 
 OBJ_PATH=./obj/
 INC_PATH=./\

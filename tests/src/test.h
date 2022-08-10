@@ -8,5 +8,6 @@ t_uni_suite *suite_isalnum();
 t_uni_suite *suite_isalnum();
 t_uni_suite *suite_isascii();
 t_uni_suite *suite_isprint();
+t_uni_suite *suite_strlen();
 
 #endif
