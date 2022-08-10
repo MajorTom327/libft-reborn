@@ -1,10 +1,10 @@
-# libft
+# libft (8/44)
 
 [![Build Linux](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-ubuntu.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-ubuntu.yml)
 [![Build Mac](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-mac.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-mac.yml)
 [![Build Windows](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-windows.yml/badge.svg)](https://github.com/MajorTom327/libft-reborn/actions/workflows/build-windows.yml)
 
-## Base
+## Base (8/23)
 
 - [x] isalpha
 - [x] isdigit
@@ -31,7 +31,7 @@
 - [ ] calloc
 - [ ] strdup
 
-## Avancer
+## Avancer (0/11)
 
 | Status | Name          | Prototype                                                         | Description                                                                                                                                                                                                                         |
 | ------ | ------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -47,7 +47,7 @@
 |        | ft_putendl_fd | `void ft_putendl_fd(char *s, int fd);`                            | Écrit La chaîne de caractères ’s’ sur le descripteur de fichier donné suivie d’un retour à la ligne.                                                                                                                                |
 |        | ft_putnbr_fd  | `void ft_putnbr_fd(int n, int fd);`                               | Écrit l’entier ’n’ sur le descripteur de fichier donné.                                                                                                                                                                             |
 
-## Liste chainee
+## Liste chainee (0/10)
 
 ```C
 typedef struct  s_list
