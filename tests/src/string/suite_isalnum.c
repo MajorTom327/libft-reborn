@@ -20,13 +20,13 @@ t_uni_suite *suite_isalnum() {
 }
 
 int test_isalnum_a() {
-  return ft_isalnum('a') == isalnum('a');
+  return IS_TRUTHY(ft_isalnum('a'));
 }
 
 int test_isalnum_number() {
-  return ft_isalnum('1') == isalnum('1');
+  return IS_TRUTHY(ft_isalnum('1'));
 }
 
 int test_isalnum_symbol() {
-  return ft_isalnum('$') == isalnum('$');
+  return IS_FALSY(ft_isalnum('$'));
 }

@@ -20,13 +20,13 @@ t_uni_suite *suite_isalpha() {
 }
 
 int test_isalpha_a() {
-  return ft_isalpha('a') == isalpha('a');
+  return IS_TRUTHY(ft_isalpha('a'));
 }
 
 int test_isalpha_number() {
-  return ft_isalpha('1') == isalpha('1');
+  return IS_FALSY(ft_isalpha('1'));
 }
 
 int test_isalpha_symbol() {
-  return ft_isalpha('$') == isalpha('$');
+  return IS_FALSY(ft_isalpha('$'));
 }

@@ -20,13 +20,13 @@ t_uni_suite *suite_isdigit() {
 }
 
 int test_isdigit_a() {
-  return ft_isalnum('a') == isdigit('a');
+  return IS_FALSY(ft_isalnum('a'));
 }
 
 int test_isdigit_number() {
-  return ft_isalnum('1') == isdigit('1');
+  return IS_TRUTHY(ft_isalnum('1'));
 }
 
 int test_isdigit_symbol() {
-  return ft_isalnum('$') == isdigit('$');
+  return IS_FALSY(ft_isalnum('$'));
 }
