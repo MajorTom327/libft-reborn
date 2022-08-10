@@ -17,5 +17,12 @@ int main(void)
   uni_runner_run(runner);
   uni_view_result(runner);
   uni_xml_reporter("./test.xml", runner);
-  return uni_get_final_result(runner);
+
+  t_uni_report *report = uni_runner_report(runner);
+  if (report->test_failed == 0)
+    printf("\033[32mAll tests passed! (%d/%d)\033[0m\n", report->test_passed, report->test_count);
+  else
+    printf("\033[31m%d tests failed on %d!\033[0m\n", report->test_failed, report->test_count);
+
+  return report->test_failed;
 }

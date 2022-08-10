@@ -48,9 +48,13 @@ $(LIB):
 #### Cleanup rules
 clean:
 	rm -f $(OBJ)
+	@make -C unicorn $@
+	@make -C tests $@
 
 fclean: clean
 	rm -f $(LIB)
+	@make -C unicorn $@
+	@make -C tests $@
 
 re: fclean all
 

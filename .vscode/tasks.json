@@ -5,8 +5,17 @@
       "label": "Build",
       "type": "shell",
       "command": "make",
+      "args": [],
+      "problemMatcher": [
+        "$gcc",
+      ]
+    },
+    {
+      "label": "Rebuild",
+      "type": "shell",
+      "command": "make",
       "args": [
-        "${workspaceFolder}"
+        "re"
       ],
       "problemMatcher": [
         "$gcc",
