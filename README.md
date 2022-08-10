@@ -9,7 +9,7 @@
 - [x] isalpha
 - [x] isdigit
 - [x] isalnum
-- [ ] isascii
+- [x] isascii
 - [ ] isprint
 - [ ] strlen
 - [ ] memset

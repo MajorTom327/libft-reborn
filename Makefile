@@ -5,7 +5,8 @@ SRC_PATH = ./src/
 
 SRC_NAME = ft_isalpha.c\
 	ft_isdigit.c\
-	ft_isalnum.c
+	ft_isalnum.c\
+	ft_isascii.c
 
 OBJ_PATH=./obj/
 INC_PATH=./
