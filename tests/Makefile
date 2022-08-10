@@ -3,15 +3,15 @@ NAME=test
 SRC_PATH=./src/
 
 SRC_NAME = main.c \
-			check_suite.c \
-			check_cond.c \
-			ts_isalpha.c \
-			ts_isdigit.c \
-			ts_isalnum.c
+			string/suite_isalpha.c\
+			string/suite_isalnum.c\
+			string/suite_isdigit.c
 
 OBJ_PATH=./obj/
 INC_PATH=./\
-		../
+		./src\
+		../\
+		../unicorn/include
 
 INC_NAME=test.h
 INC = $(addprefix -I, $(INC_PATH))
@@ -24,17 +24,16 @@ OBJ_NAME = $(SRC_NAME:.c=.o)
 SRC = $(addprefix $(SRC_PATH),$(SRC_NAME))
 OBJ = $(addprefix $(OBJ_PATH),$(OBJ_NAME))
 
-LIB = -L ../ -lft
+LIB = -L ../ -lft -L ../unicorn/ -lunicorn
 
 ### Compilation
 all: $(NAME)
 
 $(NAME): $(OBJ)
-	@echo $(OBJ)
 	$(CC) $(CFLAGS) $(OBJ) $(INC) $(LIB) -o $@
 
 $(OBJ_PATH)%.o: $(SRC_PATH)%.c
-	mkdir -p $(OBJ_PATH)
+	mkdir -p $(dir $@)
 	$(CC) $(CFLAGS) -c $(INC) -o $@ $<
 
 clean:

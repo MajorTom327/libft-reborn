@@ -50,7 +50,8 @@ re: fclean all
 
 test: re
 	@echo "Testing libft"
-	@make -C tests
+	@make -C unicorn
+	@make -C tests re
 	@echo ""
 	@./tests/test
 
