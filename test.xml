@@ -5,14 +5,14 @@
     <testcase name="1 shoud not be alpha" status="passed" duration="0" />
     <testcase name="$ shoud not be alpha" status="passed" duration="0" />
   </testsuite>
-  <testsuite name="isalnum" duration="1">
-    <testcase name="a shoud be alnum" status="passed" duration="0" />
-    <testcase name="1 shoud be alnum" status="passed" duration="0" />
-    <testcase name="$ shoud not be alnum" status="passed" duration="1" />
-  </testsuite>
   <testsuite name="isalnum" duration="0">
     <testcase name="a shoud be alnum" status="passed" duration="0" />
     <testcase name="1 shoud be alnum" status="passed" duration="0" />
     <testcase name="$ shoud not be alnum" status="passed" duration="0" />
+  </testsuite>
+  <testsuite name="isalnum" duration="1">
+    <testcase name="a shoud be alnum" status="passed" duration="0" />
+    <testcase name="1 shoud be alnum" status="passed" duration="0" />
+    <testcase name="$ shoud not be alnum" status="passed" duration="1" />
   </testsuite>
 </testsuites>

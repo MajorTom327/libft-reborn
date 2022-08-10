@@ -1,6 +1,5 @@
 {
   "files.associations": {
-    "*.ejs": "html",
     "libft.h": "c"
   }
 }

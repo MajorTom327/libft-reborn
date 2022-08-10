@@ -10,4 +10,5 @@ int main(void)
   uni_runner_run(runner);
   uni_view_result(runner);
   uni_xml_reporter("./test.xml", runner);
+  return uni_get_final_result(runner);
 }
