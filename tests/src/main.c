@@ -11,6 +11,7 @@ int main(void)
   uni_runner_add_suite(runner, suite_isascii());
   uni_runner_add_suite(runner, suite_isprint());
   uni_runner_add_suite(runner, suite_strlen());
+  uni_runner_add_suite(runner, suite_toupper());
 
   uni_runner_run(runner);
   uni_view_result(runner);

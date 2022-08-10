@@ -9,7 +9,8 @@ SRC_NAME = \
 	ft_isascii.c\
 	ft_isdigit.c\
 	ft_isprint.c\
-	ft_strlen.c
+	ft_strlen.c\
+	ft_toupper.c
 
 OBJ_PATH=./obj/
 INC_PATH=./

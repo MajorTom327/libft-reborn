@@ -11,7 +11,7 @@
 - [x] isalnum
 - [x] isascii
 - [x] isprint
-- [ ] strlen
+- [x] strlen
 - [ ] memset
 - [ ] bzero
 - [ ] memcpy
