@@ -5,6 +5,7 @@ int main(void)
 {
   t_uni_runner *runner = uni_runner_new();
 
+  // String
   uni_runner_add_suite(runner, suite_isalpha());
   uni_runner_add_suite(runner, suite_isalnum());
   uni_runner_add_suite(runner, suite_isalnum());
@@ -13,6 +14,8 @@ int main(void)
   uni_runner_add_suite(runner, suite_strlen());
   uni_runner_add_suite(runner, suite_toupper());
   uni_runner_add_suite(runner, suite_tolower());
+
+  uni_runner_add_suite(runner, suite_memset());
 
   uni_runner_run(runner);
   uni_view_result(runner);

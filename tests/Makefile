@@ -12,6 +12,7 @@ SRC_NAME = main.c \
 			string/suite_strlen.c\
 			string/suite_toupper.c\
 			string/suite_tolower.c\
+			memory/suite_memset.c\
 
 OBJ_PATH=./obj/
 INC_PATH=./\
