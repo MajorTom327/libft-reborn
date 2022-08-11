@@ -14,6 +14,7 @@ t_uni_suite *suite_toupper();
 t_uni_suite *suite_tolower();
 
 // * Memory
+t_uni_suite* suite_bzero();
 t_uni_suite* suite_memset();
 
 #endif

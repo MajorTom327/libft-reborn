@@ -16,6 +16,7 @@ int main(void)
   uni_runner_add_suite(runner, suite_tolower());
 
   uni_runner_add_suite(runner, suite_memset());
+  uni_runner_add_suite(runner, suite_bzero());
 
   uni_runner_run(runner);
   uni_view_result(runner);

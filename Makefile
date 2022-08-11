@@ -12,7 +12,8 @@ SRC_NAME = \
 	ft_strlen.c\
 	ft_tolower.c\
 	ft_toupper.c\
-	ft_memset.c
+	ft_memset.c\
+	ft_bzero.c
 
 OBJ_PATH=./obj/
 INC_PATH=./
